@@ -15,10 +15,10 @@ public class UserService {
     }
 
     // 1.1 Create User
-    public User createUser(User user) {
-        user.setCreatedAt(LocalDateTime.now());
-        return userRepository.save(user);
-    }
+//    public User createUser(User user) {
+//        user.setCreatedAt(LocalDateTime.now());
+//        return userRepository.save(user);
+//    }
 
     // 1.2 Get User by ID
     public Optional<User> getUserById(Long userId) {
